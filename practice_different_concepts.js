@@ -37,3 +37,13 @@ console.log(arrow(10,2))
 // Arrow function with single line of code
 const single_line=(x,y)=>x*y
 console.log(single_line(10,9))
+
+// Array methods 
+
+// Map
+const arr=[1,2,3,4,5,6]
+let answer=arr.map(i=>i*i)
+console.log(answer)
+// Filter
+let result=arr.filter(i=>i%2==0)
+console.log(result)
